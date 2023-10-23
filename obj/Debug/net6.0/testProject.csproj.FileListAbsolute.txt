@@ -24,3 +24,10 @@
 /home/coder/project/workspace/testProject/obj/Debug/net6.0/testProject.pdb
 /home/coder/project/workspace/testProject/obj/Debug/net6.0/testProject.genruntimeconfig.cache
 /home/coder/project/workspace/testProject/obj/Debug/net6.0/ref/testProject.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/coder/project/workspace/testProject/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/coder/project/workspace/testProject/obj/Debug/net6.0/testProject.csproj.CopyComplete

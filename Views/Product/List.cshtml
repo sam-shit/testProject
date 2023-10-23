@@ -1,0 +1,21 @@
+@using System.Data
+@model DataTable
+
+<h1>Product Listing</h1>
+<hr>
+<table class="table">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Stock</th>
+    <tbody>
+        @foreach(DataRow dr in Model.Rows) {
+            <tr>
+                <td>@dr["Id"]</td>
+                <td>@dr["Name"]</td>
+                <td>@dr["Price"]</td>
+                <td>@dr["Stock"]</td>
+            </tr>
+        }
+    </tbody>
+</table>

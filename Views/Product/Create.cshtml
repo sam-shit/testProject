@@ -1,0 +1,32 @@
+@model EmpMVC.Models.Product
+<h1>Adding Product Data</h1>
+<hr>
+@using(Html.BeginForm()) {
+    <div>
+        
+        <div>
+            @Html.DisplayNameFor(m => m.ID)
+            @Html.EditorFor(m => m.ID)
+            @Html.ValidationMessageFor(m => m.ID)
+        </div>
+
+        <div>
+            @Html.DisplayNameFor(m => m.Name)
+            @Html.EditorFor(m => m.Name)
+            @Html.ValidationMessageFor(m => m.Name)
+        </div>
+`1                                                              
+        <div>
+            @Html.DisplayNameFor(m => m.Price)
+            @Html.EditorFor(m => m.Price)
+            @Html.ValidationMessageFor(m => m.Price)
+        </div>
+
+        <div>
+            @Html.DisplayNameFor(m => m.Stock)
+            @Html.EditorFor(m => m.Stock)
+        </div>
+    </div>
+    <br>
+    <input type="submit" value="Save">
+}
